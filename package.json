@@ -10,7 +10,7 @@
     "create_tables": "sequelize db:migrate && sequelize db:seed:all",
     "start": "node build/app.js",
     "build": "yarn create_tables && babel src --out-dir build",
-    "test": "cross-env NODE_ENV=test jest --coverage"
+    "test": "cross-env NODE_ENV=test jest --coverage --forceExit"
   },
   "dependencies": {
     "@babel/cli": "^7.17.6",
