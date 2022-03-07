@@ -4,7 +4,7 @@ node_js:
 
 env:
   global:
-    - CC_TEST_REPORTER_ID=19390e2ee7ac57402b6e19db54008aaf65e88ce8b2d8578a18929a6c96c58bc2
+    - CC_TEST_REPORTER_ID=6226331d6756b57ab4005e4a
 
 install: yarn install
 
